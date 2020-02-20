@@ -1,2 +1,2 @@
-# GestaoDeEstoqueDimDim
+# FiapProjetoDevOps
 Gestão de estoque do banco Dim Dim (Projeto FIAP)

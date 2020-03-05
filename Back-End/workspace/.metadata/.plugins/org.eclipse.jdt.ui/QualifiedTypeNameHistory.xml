@@ -1,2 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.persistence.Enumerated"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.Categoria"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.EnumType"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.SequenceGenerator"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.Lote"/>
+<fullyQualifiedTypeName name="br.com.fiap.control.ProdutoDAO"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.Produto"/>
+<fullyQualifiedTypeName name="br.com.fiap.control.LoteDAO"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="br.com.fiap.exceptions.LoteNotFoundException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="br.com.fiap.exceptions.ProdutoNotFoundException"/>
+<fullyQualifiedTypeName name="br.com.fiap.exceptions.CommitErrorException"/>
+</qualifiedTypeNameHistroy>

@@ -30,18 +30,5 @@ body {
     background-color: #D1D1D1;
 }
 
-/* Margin top */
-.content {
-    margin-top: 7.5vh;
-}
-
-/* Margin top, margin bottom and content center */
-.content-center {
-    margin-top: 7.5vh;
-    margin-bottom: 2vh;
-    display: flex;
-    justify-content: center;
-}
-
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

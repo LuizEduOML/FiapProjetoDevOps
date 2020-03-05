@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { HomeComponent } from './home.component';
+import { MatCommonModule, MatButtonModule, MatInputModule, MatFormFieldModule, MatSelectModule, MatOptionModule } from '@angular/material';
 
 
 
@@ -10,7 +11,13 @@ import { HomeComponent } from './home.component';
     HomeComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MatCommonModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSelectModule,
+    MatOptionModule,
+    MatButtonModule
   ],
   exports: [
     HomeComponent

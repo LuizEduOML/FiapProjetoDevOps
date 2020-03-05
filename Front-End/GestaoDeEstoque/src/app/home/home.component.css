@@ -1,0 +1,31 @@
+/* TAGS */
+
+/* CLASSES */
+.content {
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+.home {
+    width: 60vw;
+    margin-top: 2vh;
+    margin-right: 1em;
+    padding: 0.5em 2em;
+    background-color: #F5F5F5;
+    text-align: justify;
+    border-radius: 1em;
+}
+
+.fieldPesquisaClass {
+    width: 65%;
+    margin-right: 5%;
+}
+
+.selectCategoryClass {
+    width: 30%;
+}
+
+.buttonPesquisar {
+    width: 100%;
+}

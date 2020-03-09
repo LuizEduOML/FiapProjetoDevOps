@@ -1,0 +1,21 @@
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    width: 60vw;
+    margin-top: 2vh;
+    margin-right: 1em;
+    padding: 0.5em 2em;
+    background-color: #F5F5F5;
+    text-align: justify;
+    border-radius: 1em;
+    justify-content: center;
+    display: flex;
+}
+
+.buttonLogin {
+    width: 30vw;
+    text-align: center;
+}

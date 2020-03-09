@@ -1,12 +1,6 @@
 /* TAGS */
 
 /* CLASSES */
-.content {
-    margin-bottom: 2vh;
-    display: flex;
-    justify-content: center;
-}
-
 .home {
     width: 60vw;
     margin-top: 2vh;
@@ -17,15 +11,30 @@
     border-radius: 1em;
 }
 
-.fieldPesquisaClass {
+.fieldPesquisa {
     width: 65%;
     margin-right: 5%;
 }
 
-.selectCategoryClass {
+.selectCategory {
     width: 30%;
 }
 
 .buttonPesquisar {
     width: 100%;
+}
+
+.productsList {
+    width: 100%;
+    margin-top: 3vh;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttons button {
+    margin: 2vh 2vh 2vh 2vh;
 }

@@ -32,3 +32,16 @@ body {
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* Content center */
+.content {
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+/* Button effects */
+.button:hover{
+    background-color: #D1D1D1;
+    transition: 0.5s;
+}

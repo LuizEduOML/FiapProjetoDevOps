@@ -1,12 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { LoginModule } from './login/login.module';
 import { HomeModule } from './home/home.module';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { EntradaEstoqueModule } from './entrada-estoque/entrada-estoque.module';
+import { SaidaEstoqueModule } from './saida-estoque/saida-estoque.module';
 
 @NgModule({
   declarations: [
@@ -15,10 +17,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
     SharedModule,
     LoginModule,
     HomeModule,
-    BrowserAnimationsModule
+    EntradaEstoqueModule,
+    SaidaEstoqueModule
   ],
   providers: [],
   bootstrap: [AppComponent]

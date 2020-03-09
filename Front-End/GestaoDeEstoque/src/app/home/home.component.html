@@ -2,11 +2,12 @@
     <div class="home">
         <form fromControlName="">
 
-            <mat-form-field class="fieldPesquisaClass">
+            <mat-form-field class="fieldPesquisa">
                 <input matInput type="text" name="fieldPesquisa" placeholder="Produto">
             </mat-form-field>
 
-            <mat-form-field class="selectCategoryClass">
+            <mat-form-field class="selectCategory">
+                <mat-label>Categoria</mat-label>
                 <mat-select>
                     <mat-option *ngFor="let category of categories" [value]="category.value">
                         {{category.viewValue}}
@@ -16,8 +17,48 @@
 
             <br>
         
-            <button mat-raised-button class="buttonPesquisar">Pesquisar</button>
+            <button mat-raised-button class="button buttonPesquisar">Pesquisar</button>
             
         </form>
+
+        <table mat-table [dataSource]="dataSource" class="productsList">
+            <ng-container matColumnDef="id">
+                <th mat-header-cell *matHeaderCellDef> ID </th>
+                <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="descricao">
+                <th mat-header-cell *matHeaderCellDef> Descrição </th>
+                <td mat-cell *matCellDef="let element"> {{element.descricao}} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="categoria">
+                <th mat-header-cell *matHeaderCellDef> Categoria </th>
+                <td mat-cell *matCellDef="let element"> {{element.categoria}} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="quantidade">
+                <th mat-header-cell *matHeaderCellDef> Quantidade </th>
+                <td mat-cell *matCellDef="let element"> {{element.quantidade}} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="ultimaAtualizacao">
+                <th mat-header-cell *matHeaderCellDef> Última atualização </th>
+                <td mat-cell *matCellDef="let element"> {{element.ultimaAtualizacao}} </td>
+            </ng-container>
+
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+        </table>
+        <mat-paginator [pageSizeOptions]="[5]"></mat-paginator>
+
+        <div class="buttons">
+            <button mat-raised-button class="button">Cadastrar produto</button>
+            <button mat-raised-button class="button">Remover produto</button>
+            <button mat-raised-button class="button">Cadastrar estoque</button>
+            <button mat-raised-button class="button">Saída de estoque</button>
+        </div>
+
     </div>
 </div>

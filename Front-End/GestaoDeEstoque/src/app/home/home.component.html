@@ -1,7 +1,6 @@
 <div class="content">
     <div class="home">
-        <form fromControlName="">
-
+        <form formControlName="">
             <mat-form-field class="fieldPesquisa">
                 <input matInput type="text" name="fieldPesquisa" placeholder="Produto">
             </mat-form-field>
@@ -11,7 +10,7 @@
                 <mat-select>
                     <mat-option *ngFor="let category of categories" [value]="category.value">
                         {{category.viewValue}}
-                      </mat-option>
+                    </mat-option>
                 </mat-select>
             </mat-form-field>
 
@@ -54,10 +53,9 @@
         <mat-paginator [pageSizeOptions]="[5]"></mat-paginator>
 
         <div class="buttons">
-            <button mat-raised-button class="button">Cadastrar produto</button>
-            <button mat-raised-button class="button">Remover produto</button>
-            <button mat-raised-button class="button">Cadastrar estoque</button>
-            <button mat-raised-button class="button">Saída de estoque</button>
+            <button mat-raised-button class="button" [routerLink]="['/cadastro-produto']">Cadastrar produto</button>
+            <button mat-raised-button class="button" [routerLink]="['/cadastro-estoque']">Cadastrar estoque</button>
+            <button mat-raised-button class="button" [routerLink]="['/remocao-estoque']">Remover estoque</button>
         </div>
 
     </div>

@@ -4,15 +4,17 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { NotFoundComponent } from './shared/not-found/not-found.component';
-import { EntradaEstoqueComponent } from './entrada-estoque/entrada-estoque.component';
-import { SaidaEstoqueComponent } from './saida-estoque/saida-estoque.component';
+import { CadastroProdutoComponent } from './cadastro-produto/cadastro-produto.component';
+import { CadastroEstoqueComponent } from './cadastro-estoque/cadastro-estoque.component';
+import { RemocaoEstoqueComponent } from './remocao-estoque/remocao-estoque.component';
 
 
 const routes: Routes = [
   { path: '', component: LoginComponent },
   { path: 'home', component: HomeComponent },
-  { path: 'entrada-estoque', component: EntradaEstoqueComponent },
-  { path: 'saida-estoque', component: SaidaEstoqueComponent },
+  { path: 'cadastro-produto', component: CadastroProdutoComponent},
+  { path: 'cadastro-estoque', component: CadastroEstoqueComponent },
+  { path: 'remocao-estoque', component: RemocaoEstoqueComponent },
   { path: '**', component: NotFoundComponent }
 ];
 

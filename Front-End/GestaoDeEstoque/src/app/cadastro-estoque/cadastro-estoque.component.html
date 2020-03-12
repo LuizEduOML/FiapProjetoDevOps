@@ -1,0 +1,23 @@
+<div class="content">
+    <div class="cadastroEstoque">
+        <form formControlName="">
+            <mat-form-field class="selectProduct">
+                <mat-label>Produto</mat-label>
+                <mat-select>
+                    <mat-option *ngFor="let produto of products" [value]="produto.value">
+                        {{produto.viewValue}}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+
+            <mat-form-field class="fieldQuantidadeProduto">
+                <input matInput type="text" name="quantidadeProduto" placeholder="Quantidade">
+            </mat-form-field>
+
+            <br>
+
+            <button mat-raised-button class="button buttonCadastro">Cadastrar</button>
+        </form>
+    </div>
+</div>
+    

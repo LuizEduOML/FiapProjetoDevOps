@@ -7,8 +7,9 @@ import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { LoginModule } from './login/login.module';
 import { HomeModule } from './home/home.module';
-import { EntradaEstoqueModule } from './entrada-estoque/entrada-estoque.module';
-import { SaidaEstoqueModule } from './saida-estoque/saida-estoque.module';
+import { CadastroProdutoModule } from './cadastro-produto/cadastro-produto.module';
+import { CadastroEstoqueModule } from './cadastro-estoque/cadastro-estoque.module';
+import { RemocaoEstoqueModule } from './remocao-estoque/remocao-estoque.module';
 
 @NgModule({
   declarations: [
@@ -21,8 +22,9 @@ import { SaidaEstoqueModule } from './saida-estoque/saida-estoque.module';
     SharedModule,
     LoginModule,
     HomeModule,
-    EntradaEstoqueModule,
-    SaidaEstoqueModule
+    CadastroProdutoModule,
+    CadastroEstoqueModule,
+    RemocaoEstoqueModule
   ],
   providers: [],
   bootstrap: [AppComponent]

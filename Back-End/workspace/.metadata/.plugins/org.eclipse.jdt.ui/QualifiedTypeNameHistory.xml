@@ -2,20 +2,29 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="javax.persistence.Enumerated"/>
 <fullyQualifiedTypeName name="br.com.fiap.entity.Categoria"/>
-<fullyQualifiedTypeName name="javax.persistence.Entity"/>
 <fullyQualifiedTypeName name="javax.persistence.EnumType"/>
-<fullyQualifiedTypeName name="javax.persistence.Table"/>
-<fullyQualifiedTypeName name="javax.persistence.SequenceGenerator"/>
 <fullyQualifiedTypeName name="javax.persistence.Id"/>
 <fullyQualifiedTypeName name="javax.persistence.Column"/>
-<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
 <fullyQualifiedTypeName name="br.com.fiap.entity.Lote"/>
 <fullyQualifiedTypeName name="br.com.fiap.control.ProdutoDAO"/>
-<fullyQualifiedTypeName name="br.com.fiap.entity.Produto"/>
 <fullyQualifiedTypeName name="br.com.fiap.control.LoteDAO"/>
-<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
 <fullyQualifiedTypeName name="br.com.fiap.exceptions.LoteNotFoundException"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="br.com.fiap.exceptions.ProdutoNotFoundException"/>
 <fullyQualifiedTypeName name="br.com.fiap.exceptions.CommitErrorException"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.Produto"/>
+<fullyQualifiedTypeName name="br.com.fiap.control.GenericDAO"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="br.com.fiap.exceptions.KeyNotFoundException"/>
+<fullyQualifiedTypeName name="org.hibernate.usertype.ParameterizedType"/>
+<fullyQualifiedTypeName name="java.lang.reflect.ParameterizedType"/>
+<fullyQualifiedTypeName name="javax.persistence.Temporal"/>
+<fullyQualifiedTypeName name="org.hibernate.annotations.ForeignKey"/>
+<fullyQualifiedTypeName name="javax.persistence.ForeignKey"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.SequenceGenerator"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.Fornecedor"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.Estoque"/>
 </qualifiedTypeNameHistroy>

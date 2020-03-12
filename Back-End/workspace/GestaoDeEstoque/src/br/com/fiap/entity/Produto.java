@@ -23,9 +23,6 @@ public class Produto {
 	@Column(name = "ds_produto", nullable = false, length = 250)
 	private String descricao;
 	
-	@Column(name = "qt_produto", nullable = true)
-	private int quantidade;
-	
 	@Enumerated(EnumType.STRING)
 	@Column(name = "ds_categoria", nullable = false, length = 50)
 	private Categoria categoria;
@@ -35,11 +32,10 @@ public class Produto {
 		super();
 	}
 	
-	public Produto(int codigo, String descricao, int quantidade, Categoria categoria) {
+	public Produto(int codigo, String descricao, Categoria categoria) {
 		super();
 		this.codigo = codigo;
 		this.descricao = descricao;
-		this.quantidade = quantidade;
 		this.categoria = categoria;
 	}
 	
@@ -60,20 +56,11 @@ public class Produto {
 		this.descricao = descricao;
 	}
 
-	public int getQuantidade() {
-		return quantidade;
-	}
-
-	public void setQuantidade(int quantidade) {
-		this.quantidade = quantidade;
-	}
-
 	public Categoria getCategoria() {
 		return categoria;
 	}
 
 	public void setCategoria(Categoria categoria) {
 		this.categoria = categoria;
-	}	
-	
+	}
 }
